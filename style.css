@@ -115,12 +115,19 @@ li {
 
 .quote-section {
     border: 10px solid blue;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
 }
 
 .quote-body {
     border: 5px solid green;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .quote-author {
     border: 5px solid red;
+    display: flex;
+    justify-content: flex-end;
 }
