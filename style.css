@@ -74,3 +74,28 @@ li {
     border: solid 5px black;
     max-width: 300px;
 }
+
+.images-section {
+    border: 10px solid red;
+}
+
+.images-title {
+    border: 10px solid black;
+}
+
+.images-and-captions {
+    border: 10px solid green;
+}
+
+.image-item {
+    border: 5px solid black;
+}
+
+.image-item p {
+    border: 5px solid green;
+}
+
+.image-item img {
+    max-width: 150px;
+    border: 5px solid red;  
+}
