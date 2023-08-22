@@ -160,3 +160,11 @@ li {
 .sign-up-button {
     border: 5px solid green;
 }
+
+footer {
+    border: 10px solid yellow;
+}
+
+footer p {
+    border: 5px solid black;
+}
