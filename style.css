@@ -37,18 +37,28 @@ li {
 
 .first-section {
     border: solid 10px blue;
+    display: flex;
+    justify-content: space-around;
 }
 
 .first-section-left {
     border: solid 10px black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 50%;
+    gap: 10px;
 }
 
 .first-section-left h1 {
     border: solid red 5px;
+    margin: 0;
 }
 
 .first-section-left p {
     border: solid green 5px;
+    margin: 0;
 }
 
 .first-section-left button {
@@ -57,6 +67,7 @@ li {
 
 .first-section-right {
     border: solid 10px red;
+    display: flex;
 }
 
 .first-section-right img {
