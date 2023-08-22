@@ -77,18 +77,31 @@ li {
 
 .images-section {
     border: 10px solid red;
+    display: flex;
+    flex-direction: column;
 }
 
 .images-title {
     border: 10px solid black;
+    text-align: center;
 }
 
 .images-and-captions {
     border: 10px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 64px;
 }
 
 .image-item {
     border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 210px;
 }
 
 .image-item p {
