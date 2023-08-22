@@ -4,6 +4,8 @@ body {
 
 header {
     border: solid 10px red;
+    display: flex;
+    justify-content: space-around;
 }
 
 .header-left {
