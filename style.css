@@ -34,3 +34,35 @@ li {
     border: solid 5px green;
     list-style-type: none;
 }
+
+.first-section {
+    border: solid 10px blue;
+}
+
+.first-section-left {
+    border: solid 10px black;
+}
+
+.first-section-left h1 {
+    border: solid red 5px;
+}
+
+.first-section-left p {
+    border: solid green 5px;
+}
+
+.first-section-left button {
+    border: solid 5px red;
+}
+
+.first-section-right {
+    border: solid 10px red;
+}
+
+.first-section-right img {
+    border: solid 5px black;
+}
+
+img {
+    max-width: 300px;
+}
