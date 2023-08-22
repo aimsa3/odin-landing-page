@@ -1,0 +1,27 @@
+body {
+    border: solid 10px black;
+}
+
+header {
+    border: solid 10px red;
+}
+
+.header-left {
+    border: solid 5px black;
+}
+
+.logo {
+    border: solid 5px green;
+}
+
+.header-right {
+    border: solid 5px green;
+}
+
+.links {
+    border: solid 5px black;
+}
+
+li {
+    border: solid 5px green;
+}
