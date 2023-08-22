@@ -133,3 +133,15 @@ li {
     display: flex;
     justify-content: flex-end;
 }
+
+.sign-up-section {
+    border: 10px solid red;
+}
+
+.sign-up-text {
+    border: 5px solid black;
+}
+
+.sign-up-button {
+    border: 5px solid green;
+}
