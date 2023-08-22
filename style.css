@@ -72,8 +72,5 @@ li {
 
 .first-section-right img {
     border: solid 5px black;
-}
-
-img {
     max-width: 300px;
 }
