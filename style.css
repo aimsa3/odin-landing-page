@@ -1,29 +1,33 @@
 body {
-    border: solid 10px black;
+    /* border: solid 10px black; */
+    font-family: "Roboto", sans-serif;
 }
 
 header {
-    border: solid 10px red;
+    /* border: solid 10px red; */
     display: flex;
     justify-content: space-around;
+    background-color: #1F2937;
+    color:#F9FAF8;
 }
 
 .header-left {
-    border: solid 5px black;
+    /* border: solid 5px black; */
     align-items: center;
 }
 
 .logo {
-    border: solid 5px green;
+    /* border: solid 5px green; */
+    font-size: 24px;
 }
 
 .header-right {
-    border: solid 5px green;
+    /* border: solid 5px green; */
     display: flex;
 }
 
 .links {
-    border: solid 5px black;
+    /* border: solid 5px black; */
     display: flex;
     padding: 0;
     align-items: center;
@@ -31,20 +35,31 @@ header {
 }
 
 li {
-    border: solid 5px green;
+    /* border: solid 5px green; */
     list-style-type: none;
 }
 
 .first-section {
-    border: solid 10px blue;
+    /* border: solid 10px blue; */
     display: flex;
     justify-content: center;    
     padding-top: 32px;
     padding-bottom: 32px;
+    background-color: #1F2937;
 }
 
+.first-section h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.first-section p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 .first-section-left {
-    border: solid 10px black;
+    /* border: solid 10px black; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -54,42 +69,47 @@ li {
 }
 
 .first-section-left h1 {
-    border: solid red 5px;
+    /* border: solid red 5px; */
     margin: 0;
 }
 
 .first-section-left p {
-    border: solid green 5px;
+    /* border: solid green 5px; */
     margin: 0;
 }
 
 .first-section-left button {
-    border: solid 5px red;
+    /* border: solid 5px red; */
+    background-color: #3882F6;
+    color:#F9FAF8;
 }
 
 .first-section-right {
-    border: solid 10px red;
+    /* border: solid 10px red; */
     display: flex;
 }
 
 .first-section-right img {
-    border: solid 5px black;
+    /* border: solid 5px black; */
     max-width: 300px;
 }
 
 .images-section {
-    border: 10px solid red;
+    /* border: 10px solid red; */
     display: flex;
     flex-direction: column;
 }
 
 .images-title {
-    border: 10px solid black;
+    /* border: 10px solid black; */
+    font-size: 20px;
+    font-weight: extra-bold;
+    color:#1F2937;
     text-align: center;
 }
 
 .images-and-captions {
-    border: 10px solid green;
+    /* border: 10px solid green; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,7 +117,7 @@ li {
 }
 
 .image-item {
-    border: 5px solid black;
+    /* border: 5px solid black; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,35 +127,39 @@ li {
 }
 
 .image-item p {
-    border: 5px solid green;
+    /* border: 5px solid green; */
 }
 
 .image-item img {
     max-width: 150px;
-    border: 5px solid red;  
+    /* border: 5px solid red;   */
 }
 
 .quote-section {
-    border: 10px solid blue;
+    /* border: 10px solid blue; */
     display: flex;
     flex-direction: column;
     padding: 100px;
+    background-color: #E5E7EB;
 }
 
 .quote-body {
-    border: 5px solid green;
+    /* border: 5px solid green; */
     display: flex;
-    justify-content: flex-start;
+    align-items: flex-start;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
 }
 
 .quote-author {
-    border: 5px solid red;
+    /* border: 5px solid red; */
     display: flex;
     justify-content: flex-end;
 }
 
 .sign-up-section {
-    border: 10px solid red;
+    /* border: 10px solid red; */
     display: flex;
     justify-content: center;
     padding: 64px;
@@ -150,24 +174,29 @@ li {
     padding-bottom: 32px;
     padding-left: 64px;
     padding-right: 64px;
-    border: 10px solid yellow;
-    background-color: pink;
+    /* border: 10px solid yellow; */
+    background-color:#3882F6;
 }
 .sign-up-text {
-    border: 5px solid black;
+    /* border: 5px solid black; */
+    color:#F9FAF8;
 }
 
-.sign-up-button {
-    border: 5px solid green;
+.sign-up-container button {
+    /* border: 5px solid green; */
+    background-color:#3882F6;
+    color:#F9FAF8;
 }
 
 footer {
-    border: 10px solid yellow;
+    /* border: 10px solid yellow; */
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1F2937;
 }
 
 footer p {
-    border: 5px solid black;
+    /* border: 5px solid black; */
+    color:#E5E7EB;
 }
