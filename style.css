@@ -163,6 +163,9 @@ li {
 
 footer {
     border: 10px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer p {
