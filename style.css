@@ -38,7 +38,9 @@ li {
 .first-section {
     border: solid 10px blue;
     display: flex;
-    justify-content: center;
+    justify-content: center;    
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .first-section-left {
