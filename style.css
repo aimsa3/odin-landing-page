@@ -136,8 +136,23 @@ li {
 
 .sign-up-section {
     border: 10px solid red;
+    display: flex;
+    justify-content: center;
+    padding: 64px;
 }
 
+.sign-up-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 64px;
+    padding-right: 64px;
+    border: 10px solid yellow;
+    background-color: pink;
+}
 .sign-up-text {
     border: 5px solid black;
 }
