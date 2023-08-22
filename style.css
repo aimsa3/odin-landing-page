@@ -1,6 +1,8 @@
-body {
+html, body {
     /* border: solid 10px black; */
     font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -9,6 +11,7 @@ header {
     justify-content: space-around;
     background-color: #1F2937;
     color:#F9FAF8;
+    padding-bottom: 16px;
 }
 
 .header-left {
@@ -44,8 +47,9 @@ li {
     display: flex;
     justify-content: center;    
     padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 80px;
     background-color: #1F2937;
+    gap: 10px;
 }
 
 .first-section h1 {
@@ -82,6 +86,13 @@ li {
     /* border: solid 5px red; */
     background-color: #3882F6;
     color:#F9FAF8;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+    border: none;
 }
 
 .first-section-right {
@@ -106,6 +117,7 @@ li {
     font-weight: extra-bold;
     color:#1F2937;
     text-align: center;
+    margin-top: 16px;
 }
 
 .images-and-captions {
@@ -132,6 +144,8 @@ li {
 
 .image-item img {
     max-width: 150px;
+    border:#3882F6 5px solid;
+    border-radius: 16px;
     /* border: 5px solid red;   */
 }
 
@@ -176,7 +190,9 @@ li {
     padding-right: 64px;
     /* border: 10px solid yellow; */
     background-color:#3882F6;
+    border-radius: 8px;
 }
+
 .sign-up-text {
     /* border: 5px solid black; */
     color:#F9FAF8;
@@ -186,6 +202,14 @@ li {
     /* border: 5px solid green; */
     background-color:#3882F6;
     color:#F9FAF8;
+    border:#F9FAF8 solid 2px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+    border:#F9FAF8 solid 2px;
 }
 
 footer {
