@@ -112,3 +112,15 @@ li {
     max-width: 150px;
     border: 5px solid red;  
 }
+
+.quote-section {
+    border: 10px solid blue;
+}
+
+.quote-body {
+    border: 5px solid green;
+}
+
+.quote-author {
+    border: 5px solid red;
+}
